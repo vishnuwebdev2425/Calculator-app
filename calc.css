@@ -1,11 +1,11 @@
-/* Main Container */
+
 .shiva {
     background-color: blue;
     min-height: 100vh;
     padding: 20px;
 }
 
-/* Calculator Body */
+
 .vishnu {
     background-color: black;
     width: 60%;
@@ -15,7 +15,7 @@
     border-radius: 10px;
 }
 
-/* Display Result */
+
 .result {
     background-color: white;
     height: 20%;
@@ -39,7 +39,7 @@
     font-size: 1.2rem;
 }
 
-/* Zero Button */
+
 .zero {
     height: 52px;
     width: 52px;
@@ -50,7 +50,7 @@
     font-size: 1.2rem;
 }
 
-/* Clear Button */
+
 .clear {
     height: 52px;
     width: 112px;
@@ -62,7 +62,6 @@
     font-size: 1.2rem;
 }
 
-/* Operator Buttons */
 .plus {
     height: 52px;
     width: 112px;
@@ -74,7 +73,7 @@
     color: rgb(48, 32, 218);
 }
 
-/* Responsive Styles */
+
 @media screen and (max-width: 768px) {
     .vishnu {
         width: 90%;
