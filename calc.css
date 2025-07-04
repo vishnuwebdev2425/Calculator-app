@@ -1,0 +1,130 @@
+/* Main Container */
+.shiva {
+    background-color: blue;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Calculator Body */
+.vishnu {
+    background-color: black;
+    width: 60%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Display Result */
+.result {
+    background-color: white;
+    height: 20%;
+    min-height: 60px;
+    padding: 10px;
+    font-size: 1.8rem;
+    color: green;
+    text-align: right;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* Number Buttons */
+.btns {
+    height: 52px;
+    width: 52px;
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+/* Zero Button */
+.zero {
+    height: 52px;
+    width: 52px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: aqua;
+    font-size: 1.2rem;
+}
+
+/* Clear Button */
+.clear {
+    height: 52px;
+    width: 112px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(255, 0, 106);
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Operator Buttons */
+.plus {
+    height: 52px;
+    width: 112px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: rgb(142, 206, 64);
+    color: rgb(48, 32, 218);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .vishnu {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .btns, .zero {
+        width: 44px;
+        height: 44px;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .plus, .clear {
+        width: 90px;
+        height: 44px;
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+
+    .result {
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .btns, .zero {
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
+        margin-left: 8px;
+    }
+
+    .plus, .clear {
+        width: 80px;
+        height: 40px;
+        font-size: 1.1rem;
+        margin-left: 8px;
+    }
+
+    .result {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+}
