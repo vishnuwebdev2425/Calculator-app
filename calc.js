@@ -283,10 +283,10 @@ div.onclick=()=>{
 evaluate.onclick=()=>{
     evaluate.onclick = function () {
   try {
-    let expression = array.join("");  // Convert array to string: "2+3*4"
-    let resultValue = eval(expression); // Evaluate the expression
-    result.textContent = resultValue;  // Show result on screen
-    array = [resultValue.toString()];  // Store result for next operation
+    let expression = array.join("");  
+    let resultValue = eval(expression); 
+    result.textContent = resultValue;  
+    array = [resultValue.toString()];  
   } catch (error) {
     result.textContent = "Error";
   }
